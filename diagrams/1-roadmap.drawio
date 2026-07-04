@@ -6,10 +6,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
 
-        <mxCell id="title" value="The engagement roadmap: four gated phases, first value in about 14 to 16 weeks" style="text;html=1;align=left;verticalAlign=middle;fontColor=#8b2e38;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="title" value="The engagement roadmap: four gated phases" style="text;html=1;align=left;verticalAlign=middle;fontColor=#8b2e38;fontSize=20;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="24" width="1420" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sub" value="Stage-gate governance protects the budget and executive alignment on the outside. Agile sprints run the build inside the pilot." style="text;html=1;align=left;verticalAlign=middle;fontColor=#6e6266;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="sub" value="Stage-gate governance (PMI / PRINCE2) protects the budget on the outside; agile sprints run the build inside the pilot. The durations below are typical for a company your size and are set with you in discovery." style="text;html=1;align=left;verticalAlign=middle;fontColor=#6e6266;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="40" y="62" width="1420" height="24" as="geometry" />
         </mxCell>
 

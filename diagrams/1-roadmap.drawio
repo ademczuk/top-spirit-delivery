@@ -45,10 +45,10 @@
         <mxCell id="p3w" value="Weeks 12 to 15" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p3">
           <mxGeometry x="16" y="52" width="280" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="p3b" value="&#8226; Roll out to the department&#xa;&#8226; Run the AI-literacy training and champions&#xa;&#8226; Stand up the first dashboards" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p3">
+        <mxCell id="p3b" value="&#8226; Roll out to the department&#xa;&#8226; Start the AI-literacy training and go-to people&#xa;&#8226; Stand up the department dashboards" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p3">
           <mxGeometry x="16" y="82" width="288" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="p3g" value="GATE 3&#xa;Teams trained and using it, the first dashboards live" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p3">
+        <mxCell id="p3g" value="GATE 3&#xa;First teams trained and using it, department dashboards live" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p3">
           <mxGeometry x="16" y="250" width="288" height="86" as="geometry" />
         </mxCell>
 

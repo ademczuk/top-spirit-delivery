@@ -51,7 +51,7 @@
         <mxCell id="c1" value="To the CEO&#xa;A single page. On-track, watch, or off-track. Timeline, budget, and what it means for the business. No jargon." style="rounded=1;html=1;whiteSpace=wrap;fillColor=#1b0104;strokeColor=#1b0104;fontColor=#f3e2e4;fontSize=14;align=left;verticalAlign=middle;spacingLeft=14;" vertex="1" parent="1">
           <mxGeometry x="40" y="500" width="700" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="c2" value="To the BI champion&#xa;Working sessions on the detail: data quality, how the tools fit, security, and your own data rules." style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=14;align=left;verticalAlign=middle;spacingLeft=14;" vertex="1" parent="1">
+        <mxCell id="c2" value="To your data person&#xa;Working sessions on the detail: data quality, how the tools fit, security, and your own data rules." style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=14;align=left;verticalAlign=middle;spacingLeft=14;" vertex="1" parent="1">
           <mxGeometry x="770" y="500" width="700" height="110" as="geometry" />
         </mxCell>
       </root>

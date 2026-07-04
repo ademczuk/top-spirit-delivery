@@ -32,23 +32,23 @@
         <mxCell id="p2w" value="Weeks 4 to 6" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p2">
           <mxGeometry x="16" y="52" width="280" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="p2b" value="&#8226; Score pain points on value vs effort&#xa;&#8226; Pick one or two pilot use cases&#xa;&#8226; Lightweight business case + ROI" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p2">
+        <mxCell id="p2b" value="&#8226; Score the pain points on value and effort&#xa;&#8226; Pick one or two places to start&#xa;&#8226; A short case: the cost and the return" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p2">
           <mxGeometry x="16" y="82" width="288" height="150" as="geometry" />
         </mxCell>
         <mxCell id="p2g" value="GATE 2&#xa;Pilot business case approved, data readiness confirmed" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p2">
           <mxGeometry x="16" y="250" width="288" height="86" as="geometry" />
         </mxCell>
 
-        <mxCell id="p3" value="3 &#183; Pilot (agile)" style="swimlane;html=1;startSize=42;fillColor=#8b2e38;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="1">
+        <mxCell id="p3" value="3 &#183; Pilot" style="swimlane;html=1;startSize=42;fillColor=#8b2e38;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="780" y="110" width="320" height="360" as="geometry" />
         </mxCell>
         <mxCell id="p3w" value="Weeks 7 to 11" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p3">
           <mxGeometry x="16" y="52" width="280" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="p3b" value="&#8226; Two-week sprints, build the assist&#xa;&#8226; Human in the loop on every output&#xa;&#8226; Agree how people and AI work together" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p3">
+        <mxCell id="p3b" value="&#8226; Build it in short two-week rounds&#xa;&#8226; A person checks every AI output&#xa;&#8226; Agree how people and AI work together" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p3">
           <mxGeometry x="16" y="82" width="288" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="p3g" value="GATE 3&#xa;Pilot KPIs met, user acceptance signed off" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p3">
+        <mxCell id="p3g" value="GATE 3&#xa;Pilot targets met, your team signs it off" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p3">
           <mxGeometry x="16" y="250" width="288" height="86" as="geometry" />
         </mxCell>
 
@@ -58,10 +58,10 @@
         <mxCell id="p4w" value="Weeks 12 to 16 and on" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p4">
           <mxGeometry x="16" y="52" width="290" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="p4b" value="&#8226; Roll out to the department&#xa;&#8226; Run the training and champions&#xa;&#8226; Run-book and handover" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p4">
+        <mxCell id="p4b" value="&#8226; Roll out to the department&#xa;&#8226; Run the training and the champions&#xa;&#8226; A plain how-to guide, then handover" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p4">
           <mxGeometry x="16" y="82" width="288" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="p4g" value="GATE 4&#xa;Handover complete, run-book accepted by your team" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p4">
+        <mxCell id="p4g" value="GATE 4&#xa;Handover done, your team accepts the how-to guide" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p4">
           <mxGeometry x="16" y="250" width="288" height="86" as="geometry" />
         </mxCell>
 

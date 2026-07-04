@@ -6,7 +6,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
 
-        <mxCell id="title" value="How we prove it: baseline first, then leading and lagging value" style="text;html=1;align=left;verticalAlign=middle;fontColor=#8b2e38;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="title" value="How we prove it: measure today, then the early signals and the real savings" style="text;html=1;align=left;verticalAlign=middle;fontColor=#8b2e38;fontSize=20;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="24" width="1420" height="36" as="geometry" />
         </mxCell>
         <mxCell id="sub" value="If you do not measure how long a task takes today, you cannot prove the saving tomorrow. Every initiative carries a benefit, reviewed at each gate." style="text;html=1;align=left;verticalAlign=middle;fontColor=#6e6266;fontSize=13;" vertex="1" parent="1">
@@ -16,14 +16,14 @@
         <mxCell id="b0" value="Baseline&#xa;&#xa;measure the work as it&#xa;runs today" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f1ece4;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="40" y="230" width="220" height="120" as="geometry" /></mxCell>
         <mxCell id="b1" value="Initiative&#xa;&#xa;one small change,&#xa;proven before the next" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#8b2e38;strokeColor=#6d232b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="340" y="230" width="220" height="120" as="geometry" /></mxCell>
 
-        <mxCell id="lead" value="Leading indicators  &#183;  seen first" style="swimlane;html=1;startSize=36;fillColor=#b6434f;swimlaneFillColor=#ffffff;strokeColor=#8b2e38;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
+        <mxCell id="lead" value="Early signals  &#183;  seen first" style="swimlane;html=1;startSize=36;fillColor=#b6434f;swimlaneFillColor=#ffffff;strokeColor=#8b2e38;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="660" y="120" width="440" height="130" as="geometry" />
         </mxCell>
         <mxCell id="leadb" value="&#8226; Weekly active users&#xa;&#8226; Training completion&#xa;&#8226; How often a person overrides the AI" style="text;html=1;align=left;verticalAlign=middle;fontColor=#241d1f;fontSize=13;spacingLeft=6;" vertex="1" parent="lead">
           <mxGeometry x="12" y="42" width="416" height="84" as="geometry" />
         </mxCell>
 
-        <mxCell id="lag" value="Lagging indicators  &#183;  seen later" style="swimlane;html=1;startSize=36;fillColor=#6d232b;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
+        <mxCell id="lag" value="Real savings  &#183;  seen later" style="swimlane;html=1;startSize=36;fillColor=#6d232b;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="660" y="330" width="440" height="130" as="geometry" />
         </mxCell>
         <mxCell id="lagb" value="&#8226; Hours saved per week&#xa;&#8226; Cycle-time and error-rate down&#xa;&#8226; Hard-currency saving" style="text;html=1;align=left;verticalAlign=middle;fontColor=#241d1f;fontSize=13;spacingLeft=6;" vertex="1" parent="lag">
@@ -38,7 +38,7 @@
         <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" edge="1" parent="1" source="lead" target="benefit"><mxGeometry relative="1" as="geometry" /></mxCell>
         <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6d232b;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.7;" edge="1" parent="1" source="lag" target="benefit"><mxGeometry relative="1" as="geometry" /></mxCell>
 
-        <mxCell id="predict" value="Adoption (leading) predicts the financial results (lagging) by roughly three to nine months" style="text;html=1;align=center;fontColor=#8b2e38;fontSize=13;fontStyle=2;" vertex="1" parent="1">
+        <mxCell id="predict" value="The early signals show up months before the savings land, so we can steer as we go" style="text;html=1;align=center;fontColor=#8b2e38;fontSize=13;fontStyle=2;" vertex="1" parent="1">
           <mxGeometry x="660" y="470" width="440" height="24" as="geometry" />
         </mxCell>
 

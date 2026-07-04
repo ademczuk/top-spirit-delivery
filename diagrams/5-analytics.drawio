@@ -24,7 +24,7 @@
         <mxCell id="ecc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a3" target="a4"><mxGeometry relative="1" as="geometry" /></mxCell>
         <mxCell id="ed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a4" target="a5"><mxGeometry relative="1" as="geometry" /></mxCell>
 
-        <mxCell id="gov" value="The glossary is a governed data dictionary (DAMA-DMBOK), owned by your BI champion" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=13;align=center;verticalAlign=middle;dashed=1;" vertex="1" parent="1">
+        <mxCell id="gov" value="The glossary is a living list your data person keeps, one meaning per number" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=13;align=center;verticalAlign=middle;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="300" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="egov" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#b6434f;strokeWidth=1.5;dashed=1;endArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="a3" target="gov"><mxGeometry relative="1" as="geometry" /></mxCell>

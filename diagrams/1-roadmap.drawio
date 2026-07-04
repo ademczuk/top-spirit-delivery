@@ -9,7 +9,7 @@
         <mxCell id="title" value="The engagement roadmap: four gated phases" style="text;html=1;align=left;verticalAlign=middle;fontColor=#8b2e38;fontSize=20;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="24" width="1420" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sub" value="Stage-gate governance (PMI / PRINCE2) protects the budget on the outside; agile sprints run the build inside the pilot. The durations below are typical for a company your size and are set with you in discovery." style="text;html=1;align=left;verticalAlign=middle;fontColor=#6e6266;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="sub" value="Clear checkpoints protect your budget along the way, while the building happens in short, quick rounds. The timings below are what we usually see for a company your size, and we set the real dates with you." style="text;html=1;align=left;verticalAlign=middle;fontColor=#6e6266;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="40" y="62" width="1420" height="24" as="geometry" />
         </mxCell>
 
@@ -45,7 +45,7 @@
         <mxCell id="p3w" value="Weeks 7 to 11" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p3">
           <mxGeometry x="16" y="52" width="280" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="p3b" value="&#8226; Two-week sprints, build the assist&#xa;&#8226; Human in the loop on every output&#xa;&#8226; Update the target operating model" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p3">
+        <mxCell id="p3b" value="&#8226; Two-week sprints, build the assist&#xa;&#8226; Human in the loop on every output&#xa;&#8226; Agree how people and AI work together" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p3">
           <mxGeometry x="16" y="82" width="288" height="150" as="geometry" />
         </mxCell>
         <mxCell id="p3g" value="GATE 3&#xa;Pilot KPIs met, user acceptance signed off" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p3">
@@ -75,7 +75,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
-        <mxCell id="band" value="Weekly working-team status against a RAID log  &#8226;  Fortnightly steering committee with red / amber / green status  &#8226;  A benefit attached to every initiative before any build" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#1b0104;strokeColor=#1b0104;fontColor=#f3e2e4;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="band" value="A short weekly check-in with the working team.  A brief steering meeting every two weeks.  A clear saving attached to every step before we build it." style="rounded=1;html=1;whiteSpace=wrap;fillColor=#1b0104;strokeColor=#1b0104;fontColor=#f3e2e4;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="40" y="500" width="1430" height="46" as="geometry" />
         </mxCell>
       </root>

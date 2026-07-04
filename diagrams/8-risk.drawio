@@ -9,7 +9,7 @@
         <mxCell id="title" value="What could go wrong, and how we prevent it" style="text;html=1;align=left;verticalAlign=middle;fontColor=#8b2e38;fontSize=20;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="24" width="1420" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="sub" value="These are the ways programs like this fail. Each is designed against from day one, and tracked on a live RAID log." style="text;html=1;align=left;verticalAlign=middle;fontColor=#6e6266;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="sub" value="These are the ways plans like this fail. We design against each from the start, and keep them on an open list we review with you." style="text;html=1;align=left;verticalAlign=middle;fontColor=#6e6266;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="40" y="60" width="1420" height="22" as="geometry" />
         </mxCell>
 

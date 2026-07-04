@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="30.2.6">
+  <diagram name="Governance">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" page="1" pageScale="1" pageWidth="1500" pageHeight="760" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="Who decides, who delivers, who owns adoption" style="text;html=1;align=left;verticalAlign=middle;fontColor=#8b2e38;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="24" width="1420" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="sub" value="A named sponsor is the single strongest predictor of success. One fact travels up in two languages." style="text;html=1;align=left;verticalAlign=middle;fontColor=#6e6266;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1420" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="steer" value="Steering committee  &#183;  fortnightly" style="swimlane;html=1;startSize=44;fillColor=#8b2e38;swimlaneFillColor=#faf6f0;strokeColor=#6d232b;fontColor=#ffffff;fontSize=16;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="104" width="1430" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" value="Executive sponsor&#xa;(CEO or COO)&#xa;&#xa;Owns the business case,&#xa;clears roadblocks" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#b6434f;fontColor=#241d1f;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="steer">
+          <mxGeometry x="30" y="64" width="320" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="Consulting PM&#xa;(us)&#xa;&#xa;Runs delivery, change&#xa;and the plan" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="steer">
+          <mxGeometry x="380" y="64" width="320" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="Process owners&#xa;(department heads)&#xa;&#xa;Own the daily work&#xa;and its adoption" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="steer">
+          <mxGeometry x="730" y="64" width="320" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" value="BI / analytics champion&#xa;(your team)&#xa;&#xa;Data governance and&#xa;architectural fit" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="steer">
+          <mxGeometry x="1080" y="64" width="320" height="118" as="geometry" />
+        </mxCell>
+
+        <mxCell id="racih" value="RACI" style="text;html=1;align=left;fontColor=#8b2e38;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="330" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" value="Sponsor&#xa;ACCOUNTABLE" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#8b2e38;strokeColor=#6d232b;fontColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" value="Consulting PM&#xa;RESPONSIBLE (delivery)" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=13;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="404" y="360" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" value="Process owners&#xa;RESPONSIBLE (adoption)" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=13;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="768" y="360" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" value="BI champion&#xa;CONSULTED / INFORMED" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f1ece4;strokeColor=#cfc4b4;fontColor=#6e6266;fontSize=13;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1132" y="360" width="338" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="commh" value="Two-register communication" style="text;html=1;align=left;fontColor=#8b2e38;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="470" width="360" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" value="To the CEO&#xa;A one-page update. Red / amber / green status, timeline, budget, business outcomes. No jargon." style="rounded=1;html=1;whiteSpace=wrap;fillColor=#1b0104;strokeColor=#1b0104;fontColor=#f3e2e4;fontSize=14;align=left;verticalAlign=middle;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="To the BI champion&#xa;Deep-dive working sessions. Data quality, tool fit, security, data-governance standards (DAMA-DMBOK)." style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=14;align=left;verticalAlign=middle;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="770" y="500" width="700" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

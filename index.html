@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How AngelServ delivers: the Top Spirit plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0809; --panel:#171110; --panel2:#1f1613; --line:#3f2f2b;
+    --ink:#f5efe9; --muted:#c3b7ad; --dim:#8a7d74;
+    --wine:#b6434f; --wine-deep:#8b2e38; --wine-pale:#e7b7bd;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ background:var(--bg); color:var(--ink); font-family:'Inter',system-ui,sans-serif; }
+  .slide{ min-height:100vh; display:none; flex-direction:column; justify-content:center; padding:44px 6vw 74px; position:relative; overflow:hidden; }
+  .slide.active{ display:flex; }
+  .bgimg{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0; }
+  .photo{ filter:brightness(0.66) saturate(0.9); }
+  .scrim{ position:absolute; inset:0; z-index:1; }
+  .scrim-l{ background:linear-gradient(90deg, rgba(11,8,9,0.97) 0%, rgba(11,8,9,0.9) 36%, rgba(11,8,9,0.6) 70%, rgba(11,8,9,0.34) 100%), linear-gradient(0deg, rgba(11,8,9,0.7) 0%, rgba(11,8,9,0.1) 42%); }
+  .content{ position:relative; z-index:2; width:100%; }
+  h1{ font-family:'Playfair Display',Georgia,serif; font-weight:700; font-size:clamp(38px,5vw,64px); line-height:1.06; letter-spacing:-0.005em; }
+  h2{ font-family:'Playfair Display',Georgia,serif; font-weight:700; font-size:clamp(26px,3.1vw,40px); line-height:1.12; }
+  .accent{ color:var(--wine-pale); }
+  .eyebrow{ font-size:12px; letter-spacing:0.24em; text-transform:uppercase; color:var(--wine-pale); font-weight:600; margin-bottom:12px; display:flex; align-items:center; gap:12px; }
+  .eyebrow::before{ content:""; width:30px; height:2px; background:var(--wine); display:inline-block; }
+  .lede{ font-size:clamp(15px,1.4vw,18px); color:var(--ink); max-width:900px; line-height:1.55; margin-top:12px; text-shadow:0 1px 12px rgba(0,0,0,0.6); }
+  .lede.dim{ color:var(--muted); }
+  .foot{ position:absolute; left:6vw; right:6vw; bottom:20px; display:flex; justify-content:space-between; font-size:11px; letter-spacing:0.16em; text-transform:uppercase; color:var(--dim); z-index:3; }
+  .foot .num{ color:var(--wine-pale); font-weight:600; }
+  @media screen and (min-width:761px){ .foot .num{ margin-right:92px; } }
+
+  /* diagram figure slides */
+  .figrow{ display:flex; flex-direction:column; height:100%; justify-content:center; }
+  .fighead{ margin-bottom:14px; }
+  .fighead h2{ margin-top:2px; }
+  .figure{ background:#faf8f4; border-radius:10px; padding:20px 24px; box-shadow:0 24px 70px rgba(0,0,0,0.55); border:1px solid #241d1f; }
+  .figure img{ width:100%; height:auto; display:block; max-height:60vh; object-fit:contain; }
+  .figtake{ margin-top:12px; font-size:14.5px; color:var(--muted); }
+  .figtake b{ color:var(--ink); font-weight:600; }
+
+  /* title */
+  .brandmark{ font-size:14px; letter-spacing:0.16em; text-transform:uppercase; margin-bottom:24px; }
+  .brandmark b{ color:var(--wine-pale); font-weight:700; }
+  .brandmark span{ color:var(--muted); }
+  .prep{ margin-top:28px; font-size:14px; color:var(--muted); }
+  .prep b{ color:var(--ink); font-weight:600; }
+
+  /* stat hook */
+  .stat{ display:flex; align-items:baseline; gap:22px; margin-top:26px; flex-wrap:wrap; }
+  .stat .big{ font-family:'Playfair Display',serif; font-weight:700; font-size:clamp(72px,11vw,150px); color:var(--wine); line-height:0.9; }
+  .stat .say{ font-size:clamp(16px,1.6vw,20px); color:var(--ink); max-width:560px; line-height:1.5; }
+  .three{ display:flex; gap:16px; margin-top:34px; flex-wrap:wrap; }
+  .three div{ flex:1; min-width:230px; background:var(--panel); border:1px solid var(--line); border-top:3px solid var(--wine); border-radius:5px; padding:20px 22px; }
+  .three div b{ font-family:'Playfair Display',serif; font-size:19px; display:block; margin-bottom:7px; }
+  .three div span{ font-size:14px; color:var(--muted); line-height:1.5; }
+
+  /* commercial cards */
+  .commrow{ display:flex; gap:16px; margin-top:30px; flex-wrap:wrap; }
+  .comm{ flex:1; min-width:250px; background:var(--panel); border:1px solid var(--line); border-radius:6px; padding:22px 22px 18px; position:relative; }
+  .comm::before{ content:""; position:absolute; top:0; left:0; width:100%; height:3px; background:var(--wine); border-radius:6px 6px 0 0; }
+  .comm .st{ font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:var(--wine-pale); font-weight:600; }
+  .comm h3{ font-family:'Playfair Display',serif; font-size:20px; margin:8px 0; }
+  .comm p{ font-size:13.5px; color:var(--muted); line-height:1.55; }
+  .commnote{ margin-top:22px; font-size:14.5px; color:var(--muted); max-width:920px; line-height:1.6; }
+  .commnote b{ color:var(--ink); }
+
+  /* next step */
+  .nextlist{ margin-top:22px; max-width:720px; }
+  .nextlist div{ display:flex; gap:16px; padding:13px 0; border-bottom:1px solid var(--line); font-size:16px; align-items:baseline; }
+  .nextlist div:first-child{ border-top:1px solid var(--line); }
+  .nextlist span{ color:var(--wine-pale); font-weight:600; font-size:14px; min-width:22px; }
+  .contact{ margin-top:24px; font-size:13.5px; color:var(--muted); }
+  .contact b{ color:var(--ink); }
+
+  /* nav */
+  .nav{ position:fixed; bottom:20px; left:50%; transform:translateX(-50%); display:flex; gap:9px; z-index:30; }
+  .dot{ width:9px; height:9px; border-radius:50%; background:#4a3a35; border:none; cursor:pointer; padding:0; transition:background .2s; }
+  .dot.on{ background:var(--wine); }
+  .dot:focus-visible{ outline:1.5px solid var(--wine); outline-offset:3px; }
+  .arrows{ position:fixed; right:22px; bottom:12px; z-index:30; display:flex; gap:6px; }
+  .arrows button{ background:rgba(23,17,16,0.9); color:var(--ink); border:1px solid var(--line); border-radius:3px; font-size:16px; width:38px; height:38px; cursor:pointer; transition:all .2s; }
+  .arrows button:hover,.arrows button:focus-visible{ border-color:var(--wine); color:var(--wine-pale); outline:none; }
+  .hint{ position:fixed; right:24px; top:20px; z-index:30; font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:var(--dim); transition:opacity .6s; }
+
+  @media print{
+    @page{ size:A4 landscape; margin:0; }
+    html,body,.slide,*{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    .nav,.arrows,.hint{ display:none !important; }
+    .slide{ display:flex !important; min-height:100vh; overflow:visible !important; page-break-after:always; break-after:page; padding-top:34px; padding-bottom:34px; }
+    .slide:last-of-type{ page-break-after:auto; break-after:auto; }
+    .figure img{ max-height:none; }
+  }
+  @media (max-width:820px){ .three,.commrow,.stat{ flex-direction:column; } .foot{ display:none; } }
+</style>
+</head>
+<body>
+
+<!-- 1 · Title -->
+<section class="slide active">
+  <img class="bgimg" src="media/hero.png" alt="" aria-hidden="true">
+  <div class="scrim scrim-l"></div>
+  <div class="content">
+    <div class="brandmark"><b>TOP SPIRIT</b> <span>&times; ANGEL SOFTWARE SOLUTIONS</span></div>
+    <h1>How we deliver<br><span class="accent">a plan you can hold us to</span></h1>
+    <p class="lede">The vision was the easy part. This is the machinery behind it: the phases and gates, who decides what, how the work stays safe, and how every step is measured. The same discipline a serious firm brings, sized for a company your size.</p>
+    <div class="prep"><b>Andrew Demczuk</b>, your contact &middot; Angel Software Solutions &middot; July 2026</div>
+  </div>
+  <div class="foot"><span>Top Spirit &middot; delivery plan</span><span class="num">01 / 10</span></div>
+</section>
+
+<!-- 2 · Why these plans usually fail -->
+<section class="slide">
+  <div class="content">
+    <div class="eyebrow">Why most plans like this fail, and why ours does not</div>
+    <h2>The technology is rarely <span class="accent">the reason it fails</span></h2>
+    <div class="stat">
+      <div class="big">70%</div>
+      <div class="say">of digital and AI programs miss their goals. Study after study finds the cause is people and change, not the tools. Most firms spend the opposite way round. We do not.</div>
+    </div>
+    <div class="three">
+      <div><b>People first</b><span>The change and training workstream is funded from day one, not bolted on at the end. That is where these programs live or die.</span></div>
+      <div><b>Start small, prove it</b><span>One narrow use case, a measured saving, then the next. No big-bang rollout, no shelf of software you never use.</span></div>
+      <div><b>You own it at the end</b><span>We co-deliver with your people so the skill stays in the building. The goal is to make ourselves unnecessary.</span></div>
+    </div>
+  </div>
+  <div class="foot"><span>The premise</span><span class="num">02 / 10</span></div>
+</section>
+
+<!-- 3 · Roadmap -->
+<section class="slide">
+  <div class="content figrow">
+    <div class="fighead"><div class="eyebrow">The delivery plan</div><h2>Four gated phases, <span class="accent">first value in about 14 to 16 weeks</span></h2></div>
+    <div class="figure"><img src="diagrams/1-roadmap.svg" alt="Four-phase gated roadmap: discovery, opportunity roadmap, pilot, scale and embed, each with a stage gate."></div>
+    <div class="figtake"><b>Each gate is a decision point you control.</b> Stage-gate governance protects your budget on the outside; the pilot runs in agile sprints on the inside. Nothing scales before it is proven.</div>
+  </div>
+  <div class="foot"><span>The roadmap</span><span class="num">03 / 10</span></div>
+</section>
+
+<!-- 4 · Governance -->
+<section class="slide">
+  <div class="content figrow">
+    <div class="fighead"><div class="eyebrow">Governance</div><h2>Who decides, who delivers, <span class="accent">who owns adoption</span></h2></div>
+    <div class="figure"><img src="diagrams/2-governance.svg" alt="Governance structure: steering committee, RACI, and two-register communication for the CEO and the BI champion."></div>
+    <div class="figtake"><b>A named sponsor is the single strongest predictor of success.</b> One fact travels up in two languages: a one-page outcomes update for the CEO, deep data-governance sessions for your BI champion.</div>
+  </div>
+  <div class="foot"><span>Governance</span><span class="num">04 / 10</span></div>
+</section>
+
+<!-- 5 · Safe loop -->
+<section class="slide">
+  <div class="content figrow">
+    <div class="fighead"><div class="eyebrow">Safe by design</div><h2>Every task runs <span class="accent">the same safe loop</span></h2></div>
+    <div class="figure"><img src="diagrams/3-safeloop.svg" alt="The safe loop: AI drafts, a named person approves, only then it goes out, with data-safety guards."></div>
+    <div class="figtake"><b>AI drafts, a person you name approves.</b> Nothing reaches a customer or the books unchecked. Your data stays in tools your IT has approved, and you stay the data controller.</div>
+  </div>
+  <div class="foot"><span>Safe by design</span><span class="num">05 / 10</span></div>
+</section>
+
+<!-- 6 · Network -->
+<section class="slide">
+  <div class="content figrow">
+    <div class="fighead"><div class="eyebrow">AI literacy rollout</div><h2>Connected, <span class="accent">not siloed</span></h2></div>
+    <div class="figure"><img src="diagrams/4-network.svg" alt="Silos becoming a champion network: five departments connected through a shared playbook, each with a champion."></div>
+    <div class="figtake"><b>What one team learns reaches the others.</b> One trained champion per department, a shared playbook, a weekly open hour. The learning keeps moving after we step back.</div>
+  </div>
+  <div class="foot"><span>Training &middot; the network</span><span class="num">06 / 10</span></div>
+</section>
+
+<!-- 7 · Analytics -->
+<section class="slide">
+  <div class="content figrow">
+    <div class="fighead"><div class="eyebrow">The system analytics</div><h2>From files everywhere to <span class="accent">one set of numbers</span></h2></div>
+    <div class="figure"><img src="diagrams/5-analytics.svg" alt="Analytics pipeline: systems and files to export files to a governed glossary to dashboards to clear decisions."></div>
+    <div class="figtake"><b>Built on your export files, so it survives the ERP change.</b> One agreed meaning per number, governed as a proper data dictionary and owned by your BI champion.</div>
+  </div>
+  <div class="foot"><span>The analytics</span><span class="num">07 / 10</span></div>
+</section>
+
+<!-- 8 · Benefits -->
+<section class="slide">
+  <div class="content figrow">
+    <div class="fighead"><div class="eyebrow">How we prove it</div><h2>Baseline first, then <span class="accent">leading and lagging value</span></h2></div>
+    <div class="figure"><img src="diagrams/6-benefits.svg" alt="Benefits realization: baseline, initiative, leading indicators and lagging indicators, benefit realized and tracked at gates."></div>
+    <div class="figtake"><b>If we do not measure the work today, we cannot prove the saving tomorrow.</b> Every initiative carries a benefit, reviewed at each gate, then handed to your team to keep tracking.</div>
+  </div>
+  <div class="foot"><span>Benefits realization</span><span class="num">08 / 10</span></div>
+</section>
+
+<!-- 9 · Commercial model -->
+<section class="slide">
+  <div class="content">
+    <div class="eyebrow">How the engagement is structured</div>
+    <h2>Built to <span class="accent">cap your risk at every step</span></h2>
+    <div class="commrow">
+      <div class="comm"><div class="st">Phase 1 and 2</div><h3>Fixed-scope discovery</h3><p>A firm scope and a firm number while the destination is still unknown. Your exposure is capped before anyone builds anything.</p></div>
+      <div class="comm"><div class="st">Phase 3</div><h3>Capped pilot</h3><p>The build runs agile so it can adapt, inside a hard ceiling. Flexibility without an open cheque.</p></div>
+      <div class="comm"><div class="st">Phase 4</div><h3>Retained advisory</h3><p>Once your team runs it, we step back to on-call support. You are never paying for people you no longer need.</p></div>
+    </div>
+    <p class="commnote"><b>A lean team, by design.</b> One senior lead who carries the relationship, the plan, and the change work, with specialists pulled in only when a sprint needs them. We co-deliver with your own people and your BI champion, so the cost stays low and the capability stays with you.</p>
+  </div>
+  <div class="foot"><span>The engagement model</span><span class="num">09 / 10</span></div>
+</section>
+
+<!-- 10 · Next step -->
+<section class="slide">
+  <img class="bgimg photo" src="media/meeting.jpg" alt="" aria-hidden="true">
+  <div class="scrim scrim-l"></div>
+  <div class="content">
+    <div class="eyebrow">The next step</div>
+    <h2>A first meeting <span class="accent">to get to know each other</span></h2>
+    <p class="lede">You describe your situation, your challenges, and your goals. We bring this plan and a working preview you can see live. From there, three things to agree together:</p>
+    <div class="nextlist">
+      <div><span>1</span>Which area we look at first in the potential analysis.</div>
+      <div><span>2</span>Which report becomes the first dashboard.</div>
+      <div><span>3</span>Who your champions are, one per team.</div>
+    </div>
+    <div class="contact"><b>Andrew Demczuk</b>, your contact &middot; Angel Software Solutions &middot; with Keith Swoger and Will Humphries</div>
+  </div>
+  <div class="foot"><span>The next step</span><span class="num">10 / 10</span></div>
+</section>
+
+<nav class="nav" id="dots" aria-label="Slide navigation"></nav>
+<div class="arrows"><button id="prev" aria-label="Previous slide">&#8592;</button><button id="next" aria-label="Next slide">&#8594;</button></div>
+<div class="hint">Arrow keys or click</div>
+
+<script>
+  const slides=Array.from(document.querySelectorAll('.slide'));
+  const dots=document.getElementById('dots'); let cur=0;
+  slides.forEach((s,i)=>{ const d=document.createElement('button'); d.className='dot'; d.setAttribute('aria-label','Slide '+(i+1)); d.addEventListener('click',()=>go(i)); dots.appendChild(d); });
+  const prevBtn=document.getElementById('prev'), nextBtn=document.getElementById('next'), hint=document.querySelector('.hint');
+  function go(i){ cur=Math.max(0,Math.min(slides.length-1,i)); slides.forEach((s,j)=>s.classList.toggle('active',j===cur)); Array.from(dots.children).forEach((d,j)=>{ d.classList.toggle('on',j===cur); if(j===cur){ d.setAttribute('aria-current','true'); } else { d.removeAttribute('aria-current'); } }); prevBtn.style.opacity=(cur===0)?'0.35':'1'; nextBtn.style.opacity=(cur===slides.length-1)?'0.35':'1'; if(hint){ hint.style.opacity=(cur===0)?'1':'0'; } }
+  document.addEventListener('keydown',e=>{ if(e.target && e.target.tagName==='BUTTON' && e.key===' ')return; const k=e.key; if(k==='ArrowRight'||k===' '||k==='PageDown'){ e.preventDefault(); go(cur+1); } else if(k==='ArrowLeft'||k==='PageUp'){ e.preventDefault(); go(cur-1); } else if(k==='Home'){ e.preventDefault(); go(0); } else if(k==='End'){ e.preventDefault(); go(slides.length-1); } });
+  nextBtn.addEventListener('click',()=>go(cur+1));
+  prevBtn.addEventListener('click',()=>go(cur-1));
+  go(0);
+</script>
+</body>
+</html>

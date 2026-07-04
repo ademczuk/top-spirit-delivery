@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="30.2.6">
+  <diagram name="SafeLoop">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" page="1" pageScale="1" pageWidth="1500" pageHeight="560" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="Every task runs the same safe loop" style="text;html=1;align=left;verticalAlign=middle;fontColor=#8b2e38;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="24" width="1420" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="sub" value="AI drafts, a named person approves, nothing reaches a customer or the books unchecked. This is how safe and staff acceptance are designed in, not bolted on." style="text;html=1;align=left;verticalAlign=middle;fontColor=#6e6266;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1420" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="n1" value="Look at the&#xa;work together" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="AI writes&#xa;the first draft" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="360" y="150" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Your named person&#xa;checks and approves" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#8b2e38;strokeColor=#6d232b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="680" y="150" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Only then&#xa;it goes out" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="150" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="Count the&#xa;hours saved" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="150" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ea" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n1" target="n2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eb" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n2" target="n3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ec" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n3" target="n4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n4" target="n5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eloop" value="then the next task, a little bigger each time" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#c9a3a8;strokeWidth=2;dashed=1;endArrow=block;endFill=1;fontColor=#6e6266;fontSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=1;" edge="1" parent="1" source="n5" target="n1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1350" y="300" /><mxPoint x="155" y="300" /></Array></mxGeometry>
+        </mxCell>
+
+        <mxCell id="g1" value="Your data stays home&#xa;Only tools your IT has approved." style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=13;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" value="GDPR respected&#xa;You stay the data controller." style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=13;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="525" y="400" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g3" value="People, not around them&#xa;We train with your teams." style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=13;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="400" width="450" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

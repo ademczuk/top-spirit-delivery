@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="30.2.6">
+  <diagram name="Roadmap">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="620" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="The engagement roadmap: four gated phases, first value in about 14 to 16 weeks" style="text;html=1;align=left;verticalAlign=middle;fontColor=#8b2e38;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="24" width="1420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sub" value="Stage-gate governance protects the budget and executive alignment on the outside. Agile sprints run the build inside the pilot." style="text;html=1;align=left;verticalAlign=middle;fontColor=#6e6266;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="62" width="1420" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p1" value="1 &#183; Discovery &amp; mobilize" style="swimlane;html=1;startSize=42;fillColor=#8b2e38;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="320" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="p1w" value="Weeks 1 to 3" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p1">
+          <mxGeometry x="16" y="52" width="280" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p1b" value="&#8226; Interviews and current-state process maps&#xa;&#8226; First data-quality assessment&#xa;&#8226; Establish the baseline (measure today)" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p1">
+          <mxGeometry x="16" y="82" width="288" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="p1g" value="GATE 1&#xa;Baseline approved, problem statements agreed by the sponsor" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p1">
+          <mxGeometry x="16" y="250" width="288" height="86" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p2" value="2 &#183; Opportunity roadmap" style="swimlane;html=1;startSize=42;fillColor=#8b2e38;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="410" y="110" width="320" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="p2w" value="Weeks 4 to 6" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p2">
+          <mxGeometry x="16" y="52" width="280" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p2b" value="&#8226; Score pain points on value vs effort&#xa;&#8226; Pick one or two pilot use cases&#xa;&#8226; Lightweight business case + ROI" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p2">
+          <mxGeometry x="16" y="82" width="288" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="p2g" value="GATE 2&#xa;Pilot business case approved, data readiness confirmed" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p2">
+          <mxGeometry x="16" y="250" width="288" height="86" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p3" value="3 &#183; Pilot (agile)" style="swimlane;html=1;startSize=42;fillColor=#8b2e38;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="780" y="110" width="320" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="p3w" value="Weeks 7 to 11" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p3">
+          <mxGeometry x="16" y="52" width="280" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p3b" value="&#8226; Two-week sprints, build the assist&#xa;&#8226; Human in the loop on every output&#xa;&#8226; Update the target operating model" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p3">
+          <mxGeometry x="16" y="82" width="288" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="p3g" value="GATE 3&#xa;Pilot KPIs met, user acceptance signed off" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p3">
+          <mxGeometry x="16" y="250" width="288" height="86" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p4" value="4 &#183; Scale &amp; embed" style="swimlane;html=1;startSize=42;fillColor=#8b2e38;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="110" width="320" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="p4w" value="Weeks 12 to 16 and on" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p4">
+          <mxGeometry x="16" y="52" width="290" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p4b" value="&#8226; Roll out to the department&#xa;&#8226; Run the training and champions&#xa;&#8226; Run-book and handover" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p4">
+          <mxGeometry x="16" y="82" width="288" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="p4g" value="GATE 4&#xa;Handover complete, run-book accepted by your team" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p4">
+          <mxGeometry x="16" y="250" width="288" height="86" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p1" target="p2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p2" target="p3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p3" target="p4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="band" value="Weekly working-team status against a RAID log  &#8226;  Fortnightly steering committee with red / amber / green status  &#8226;  A benefit attached to every initiative before any build" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#1b0104;strokeColor=#1b0104;fontColor=#f3e2e4;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="1430" height="46" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

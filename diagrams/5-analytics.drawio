@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="30.2.6">
+  <diagram name="Analytics">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" page="1" pageScale="1" pageWidth="1500" pageHeight="520" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="From files everywhere to one set of numbers" style="text;html=1;align=left;verticalAlign=middle;fontColor=#8b2e38;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="24" width="1420" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="sub" value="Whatever systems and spreadsheets you use today, they already hold the data. We turn their files into dashboards, with one agreed meaning per number." style="text;html=1;align=left;verticalAlign=middle;fontColor=#6e6266;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1420" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a1" value="The systems&#xa;and files&#xa;you use today" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f1ece4;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="40" y="150" width="220" height="120" as="geometry" /></mxCell>
+        <mxCell id="a2" value="Export files&#xa;&#xa;simple, safe copies" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="340" y="160" width="220" height="100" as="geometry" /></mxCell>
+        <mxCell id="a3" value="One glossary&#xa;&#xa;each number, one meaning" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="640" y="160" width="240" height="100" as="geometry" /></mxCell>
+        <mxCell id="a4" value="Dashboards&#xa;&#xa;your team keeps current" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#8b2e38;strokeColor=#6d232b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="960" y="160" width="220" height="100" as="geometry" /></mxCell>
+        <mxCell id="a5" value="Clear&#xa;decisions" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#6d232b;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1260" y="160" width="200" height="100" as="geometry" /></mxCell>
+
+        <mxCell id="ea" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a1" target="a2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eb" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a2" target="a3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ecc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a3" target="a4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b6434f;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="a4" target="a5"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="gov" value="The glossary is a governed data dictionary (DAMA-DMBOK), owned by your BI champion" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=13;align=center;verticalAlign=middle;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="300" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="egov" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#b6434f;strokeWidth=1.5;dashed=1;endArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="a3" target="gov"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="base" value="Built on export files, so it keeps working with today's systems and with the next one you choose. Leadership sees sales, open orders and stock on one page." style="rounded=1;html=1;whiteSpace=wrap;fillColor=#1b0104;strokeColor=#1b0104;fontColor=#f3e2e4;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="1420" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

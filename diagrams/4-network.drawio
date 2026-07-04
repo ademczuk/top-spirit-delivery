@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="30.2.6">
+  <diagram name="Network">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" page="1" pageScale="1" pageWidth="1500" pageHeight="620" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="Connected, not siloed: the champion network" style="text;html=1;align=left;verticalAlign=middle;fontColor=#8b2e38;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="24" width="1420" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="sub" value="Today a good idea stays in one team. One trained champion per department carries what works to the others, through a shared playbook." style="text;html=1;align=left;verticalAlign=middle;fontColor=#6e6266;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1420" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="t1" value="Order desk" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f1ece4;strokeColor=#cfc4b4;fontColor=#8a7d75;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="60" y="140" width="150" height="52" as="geometry" /></mxCell>
+        <mxCell id="t2" value="Sales" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f1ece4;strokeColor=#cfc4b4;fontColor=#8a7d75;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="230" y="140" width="150" height="52" as="geometry" /></mxCell>
+        <mxCell id="t3" value="Finance" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f1ece4;strokeColor=#cfc4b4;fontColor=#8a7d75;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="60" y="220" width="150" height="52" as="geometry" /></mxCell>
+        <mxCell id="t4" value="Logistics" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f1ece4;strokeColor=#cfc4b4;fontColor=#8a7d75;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="230" y="220" width="150" height="52" as="geometry" /></mxCell>
+        <mxCell id="t5" value="Leadership" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f1ece4;strokeColor=#cfc4b4;fontColor=#8a7d75;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="145" y="300" width="150" height="52" as="geometry" /></mxCell>
+        <mxCell id="tlabel" value="Today: each team learns alone" style="text;html=1;align=center;fontColor=#6e6266;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="380" width="360" height="24" as="geometry" /></mxCell>
+
+        <mxCell id="arrow" value="the training" style="edgeStyle=none;html=1;strokeColor=#b6434f;strokeWidth=4;endArrow=block;endFill=1;fontColor=#b6434f;fontSize=13;fontStyle=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="440" y="246" as="sourcePoint" /><mxPoint x="560" y="246" as="targetPoint" /></mxGeometry>
+        </mxCell>
+
+        <mxCell id="hub" value="Shared&#xa;playbook" style="ellipse;html=1;whiteSpace=wrap;fillColor=#8b2e38;strokeColor=#6d232b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="990" y="240" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" value="Order desk" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="965" y="110" width="180" height="52" as="geometry" /></mxCell>
+        <mxCell id="d2" value="Sales" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1270" y="230" width="180" height="52" as="geometry" /></mxCell>
+        <mxCell id="d3" value="Finance" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1180" y="420" width="180" height="52" as="geometry" /></mxCell>
+        <mxCell id="d4" value="Logistics" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="750" y="420" width="180" height="52" as="geometry" /></mxCell>
+        <mxCell id="d5" value="Leadership" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#b6434f;fontColor=#241d1f;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="660" y="230" width="180" height="52" as="geometry" /></mxCell>
+
+        <mxCell id="l1" style="edgeStyle=none;html=1;strokeColor=#b6434f;strokeWidth=2;endArrow=none;" edge="1" parent="1" source="hub" target="d1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l2" style="edgeStyle=none;html=1;strokeColor=#b6434f;strokeWidth=2;endArrow=none;" edge="1" parent="1" source="hub" target="d2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l3" style="edgeStyle=none;html=1;strokeColor=#b6434f;strokeWidth=2;endArrow=none;" edge="1" parent="1" source="hub" target="d3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l4" style="edgeStyle=none;html=1;strokeColor=#b6434f;strokeWidth=2;endArrow=none;" edge="1" parent="1" source="hub" target="d4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l5" style="edgeStyle=none;html=1;strokeColor=#b6434f;strokeWidth=2;endArrow=none;" edge="1" parent="1" source="hub" target="d5"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="dot1" value="" style="ellipse;html=1;fillColor=#b6434f;strokeColor=#b6434f;" vertex="1" parent="1"><mxGeometry x="1138" y="104" width="14" height="14" as="geometry" /></mxCell>
+        <mxCell id="dot2" value="" style="ellipse;html=1;fillColor=#b6434f;strokeColor=#b6434f;" vertex="1" parent="1"><mxGeometry x="1443" y="224" width="14" height="14" as="geometry" /></mxCell>
+        <mxCell id="dot3" value="" style="ellipse;html=1;fillColor=#b6434f;strokeColor=#b6434f;" vertex="1" parent="1"><mxGeometry x="1353" y="414" width="14" height="14" as="geometry" /></mxCell>
+        <mxCell id="dot4" value="" style="ellipse;html=1;fillColor=#b6434f;strokeColor=#b6434f;" vertex="1" parent="1"><mxGeometry x="923" y="414" width="14" height="14" as="geometry" /></mxCell>
+        <mxCell id="dot5" value="" style="ellipse;html=1;fillColor=#b6434f;strokeColor=#b6434f;" vertex="1" parent="1"><mxGeometry x="833" y="224" width="14" height="14" as="geometry" /></mxCell>
+
+        <mxCell id="alabel" value="After: champions carry what works across teams" style="text;html=1;align=center;fontColor=#241d1f;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="820" y="500" width="470" height="24" as="geometry" /></mxCell>
+        <mxCell id="legend" value="&#9679;  = a champion, one trained person in every department" style="text;html=1;align=center;fontColor=#6e6266;fontSize=13;" vertex="1" parent="1"><mxGeometry x="820" y="528" width="470" height="22" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

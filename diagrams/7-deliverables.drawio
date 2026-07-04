@@ -24,30 +24,34 @@
           <mxGeometry x="16" y="150" width="313" height="52" as="geometry" />
         </mxCell>
         <mxCell id="c1bo" value="PM + BI champion" style="text;html=1;align=left;fontColor=#b6434f;fontSize=11;" vertex="1" parent="c1"><mxGeometry x="18" y="204" width="313" height="16" as="geometry" /></mxCell>
+        <mxCell id="c1c" value="A ranked list of opportunities,&#xa;with the plan for the first win" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=13;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="c1">
+          <mxGeometry x="16" y="234" width="313" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="c1co" value="PM + sponsor" style="text;html=1;align=left;fontColor=#b6434f;fontSize=11;" vertex="1" parent="c1"><mxGeometry x="18" y="302" width="313" height="16" as="geometry" /></mxCell>
 
         <mxCell id="c2" value="Quick wins" style="swimlane;html=1;startSize=40;fillColor=#8b2e38;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="405" y="110" width="345" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="c2a" value="A ranked list of opportunities&#xa;(by value and effort)" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=13;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="c2">
+        <mxCell id="c2a" value="A working first dashboard&#xa;or assistant" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=13;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="c2">
           <mxGeometry x="16" y="52" width="313" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="c2ao" value="PM" style="text;html=1;align=left;fontColor=#b6434f;fontSize=11;" vertex="1" parent="c2"><mxGeometry x="18" y="120" width="313" height="16" as="geometry" /></mxCell>
-        <mxCell id="c2b" value="A working first dashboard&#xa;or assistant" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=13;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="c2">
+        <mxCell id="c2ao" value="PM + BI champion" style="text;html=1;align=left;fontColor=#b6434f;fontSize=11;" vertex="1" parent="c2"><mxGeometry x="18" y="120" width="313" height="16" as="geometry" /></mxCell>
+        <mxCell id="c2b" value="How people and AI work&#xa;together, task by task" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=13;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="c2">
           <mxGeometry x="16" y="150" width="313" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="c2bo" value="PM + BI champion" style="text;html=1;align=left;fontColor=#b6434f;fontSize=11;" vertex="1" parent="c2"><mxGeometry x="18" y="218" width="313" height="16" as="geometry" /></mxCell>
+        <mxCell id="c2bo" value="PM + process owners" style="text;html=1;align=left;fontColor=#b6434f;fontSize=11;" vertex="1" parent="c2"><mxGeometry x="18" y="218" width="313" height="16" as="geometry" /></mxCell>
 
         <mxCell id="c3" value="Rollout" style="swimlane;html=1;startSize=40;fillColor=#8b2e38;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="770" y="110" width="345" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="c3a" value="How people and AI work&#xa;together, task by task" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=13;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="c3">
+        <mxCell id="c3a" value="A hands-on training plan" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=13;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="c3">
           <mxGeometry x="16" y="52" width="313" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="c3ao" value="PM + process owners" style="text;html=1;align=left;fontColor=#b6434f;fontSize=11;" vertex="1" parent="c3"><mxGeometry x="18" y="120" width="313" height="16" as="geometry" /></mxCell>
-        <mxCell id="c3b" value="A hands-on training plan" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=13;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="c3">
+        <mxCell id="c3ao" value="PM + champions" style="text;html=1;align=left;fontColor=#b6434f;fontSize=11;" vertex="1" parent="c3"><mxGeometry x="18" y="120" width="313" height="16" as="geometry" /></mxCell>
+        <mxCell id="c3b" value="The department dashboards,&#xa;one at a time" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#faf6f0;strokeColor=#cfc4b4;fontColor=#241d1f;fontSize=13;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="c3">
           <mxGeometry x="16" y="150" width="313" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="c3bo" value="PM + champions" style="text;html=1;align=left;fontColor=#b6434f;fontSize=11;" vertex="1" parent="c3"><mxGeometry x="18" y="218" width="313" height="16" as="geometry" /></mxCell>
+        <mxCell id="c3bo" value="BI champion" style="text;html=1;align=left;fontColor=#b6434f;fontSize=11;" vertex="1" parent="c3"><mxGeometry x="18" y="218" width="313" height="16" as="geometry" /></mxCell>
 
         <mxCell id="c4" value="Embed" style="swimlane;html=1;startSize=40;fillColor=#8b2e38;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1135" y="110" width="345" height="360" as="geometry" />

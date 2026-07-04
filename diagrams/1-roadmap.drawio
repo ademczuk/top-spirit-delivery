@@ -16,23 +16,23 @@
         <mxCell id="p1" value="1 &#183; Potential analysis" style="swimlane;html=1;startSize=42;fillColor=#8b2e38;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="110" width="320" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="p1w" value="Weeks 1 to 3" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p1">
+        <mxCell id="p1w" value="Weeks 1 to 6" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p1">
           <mxGeometry x="16" y="52" width="280" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="p1b" value="&#8226; Interviews and current-state process maps&#xa;&#8226; First data-quality assessment&#xa;&#8226; Establish the baseline (measure today)" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p1">
+        <mxCell id="p1b" value="&#8226; Interviews and maps of how the work runs&#xa;&#8226; A check of your data&#xa;&#8226; Measure how long the work takes today&#xa;&#8226; Rank on value and effort, pick where to start" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p1">
           <mxGeometry x="16" y="82" width="288" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="p1g" value="GATE 1&#xa;Baseline approved, problem statements agreed by the sponsor" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p1">
+        <mxCell id="p1g" value="GATE 1&#xa;You approve the ranked opportunities and the plan for the first win" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p1">
           <mxGeometry x="16" y="250" width="288" height="86" as="geometry" />
         </mxCell>
 
         <mxCell id="p2" value="2 &#183; Quick wins" style="swimlane;html=1;startSize=42;fillColor=#8b2e38;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="410" y="110" width="320" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="p2w" value="Weeks 4 to 9" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p2">
+        <mxCell id="p2w" value="Weeks 7 to 11" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p2">
           <mxGeometry x="16" y="52" width="280" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="p2b" value="&#8226; Pick one or two places to start&#xa;&#8226; Build it in short two-week rounds&#xa;&#8226; A person checks every AI output" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p2">
+        <mxCell id="p2b" value="&#8226; Build the first win in short two-week rounds&#xa;&#8226; A person checks every AI output&#xa;&#8226; Agree how people and AI work together" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p2">
           <mxGeometry x="16" y="82" width="288" height="150" as="geometry" />
         </mxCell>
         <mxCell id="p2g" value="GATE 2&#xa;First saving proven in your numbers, your team signs it off" style="rounded=1;html=1;whiteSpace=wrap;fillColor=#f3e2e4;strokeColor=#b6434f;fontColor=#6d232b;fontSize=12;align=left;spacingLeft=8;verticalAlign=middle;" vertex="1" parent="p2">
@@ -42,7 +42,7 @@
         <mxCell id="p3" value="3 &#183; Rollout" style="swimlane;html=1;startSize=42;fillColor=#8b2e38;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="780" y="110" width="320" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="p3w" value="Weeks 10 to 13" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p3">
+        <mxCell id="p3w" value="Weeks 12 to 15" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p3">
           <mxGeometry x="16" y="52" width="280" height="22" as="geometry" />
         </mxCell>
         <mxCell id="p3b" value="&#8226; Roll out to the department&#xa;&#8226; Run the AI-literacy training and champions&#xa;&#8226; Stand up the first dashboards" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p3">
@@ -55,7 +55,7 @@
         <mxCell id="p4" value="4 &#183; Embed" style="swimlane;html=1;startSize=42;fillColor=#8b2e38;swimlaneFillColor=#ffffff;strokeColor=#6d232b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1150" y="110" width="320" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="p4w" value="Weeks 14 to 16 and on" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p4">
+        <mxCell id="p4w" value="Weeks 16 and on" style="text;html=1;align=left;fontColor=#b6434f;fontSize=13;fontStyle=1;" vertex="1" parent="p4">
           <mxGeometry x="16" y="52" width="290" height="22" as="geometry" />
         </mxCell>
         <mxCell id="p4b" value="&#8226; A plain how-to guide your team keeps&#xa;&#8226; The weekly habit that keeps learning going&#xa;&#8226; We step back and stay on call" style="text;html=1;align=left;verticalAlign=top;fontColor=#241d1f;fontSize=13;spacingLeft=2;" vertex="1" parent="p4">
